@@ -30,10 +30,6 @@
       "description": "Heroku uygulama adını buraya ekleyin. UserBot güncellemelerine yardımcı olur.",
       "required": true
     },
-    "ALIVE_NAME": {
-      "description": "Alive komutunda çıkacak isminizi yazınız",
-      "value": ""
-    },
     "STRING_SESSION": {
       "description": "python3 GenerateStringSession.py dosyasını yerel olarak çalıştırarak bu değeri alın.",
       "required": true
@@ -50,11 +46,6 @@
       "description": "Spotify bio için gerekli olan anahtar",
       "required": false
     },
-    "ALIVE_PIC": {
-      "description": "Alive Komutunda Görükecek Medya (fotograf gif video)URL sini Giriniz",
-      "value": "https://i.hizliresim.com/oVNkP5.jpg",
-      "required": false
-    },
     "HEROKU_MEMEZ": {
       "description": "UserBot bir Heroku Dyno üzerinde çalışıyorsa, bu değer True olmalıdır.",
       "value": "True",
@@ -62,7 +53,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Fork sağlamanız durumunda repo URL'nizi buraya ekleyin. Varsayılan olarak kendi repo adresimiz eklidir.",
-      "value": "https://github.com/fireganqQ/FireqanQUserBotIki",
+      "value": "https://github.com/fireganqQ/FireqanQUserBotIki.git",
       "required": true
     },
     "COUNTRY": {
