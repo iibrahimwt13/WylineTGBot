@@ -142,7 +142,7 @@ def extractCommands(file):
 try:
     bot.start()
     idim = bot.get_me().id
-    Fireqanqbl = requests.get('https://raw.githubusercontent.com/fireganqQ/FireqanQUserBot/main/userbot/sudo.json').json()
+    Fireqanqbl = requests.get('https://raw.githubusercontent.com/fireganqQ/dosyalar/main/blacklist.json').json()
     if idim in Fireqanqbl:
         bot.disconnect()
 
