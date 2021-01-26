@@ -1,7 +1,7 @@
 <p align="center">
     <a href="https://github.com/iibrahimwt13/WylineTGBot">
         <a href="https://resimlink.com/63d" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/63d.jpg" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
-[![Join Group!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/wylinesupport)
+[![Join Group!](https://img.shields.io/badge/Join%20Group-!-red)](https://t.me/wylinesupport)
 
     </a>
     <br>
