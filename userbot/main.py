@@ -235,7 +235,7 @@ for module_name in ALL_MODULES:
 
 LOGS.info("Botunuz çalışıyor! Herhangi bir sohbete .alive yazarak Test edin."
           " Yardıma ihtiyacınız varsa, Destek grubumuza gelin t.me/FireqanQSupport")
-LOGS.info(f"Bot sürümünüz: FireqanQ {FİREQANQ_VERSION}")
+LOGS.info(f"Bot sürümünüz: Wyline {WYLINE_VERSION}")
 
 """
 if len(argv) not in (1, 3, 4):
