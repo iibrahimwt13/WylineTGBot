@@ -37,7 +37,7 @@ class InteractiveTelegramClient(TelegramClient):
             proxy=proxy
         )
         self.found_media = {}
-        print('@FireqanQUserBot String Alıcıya Hoş Geldiniz')
+        print('@Wyline String Alıcıya Hoş Geldiniz')
         print('[i] Telegramın Sunucularına Bağlanılıyor...')
         try:
             loop.run_until_complete(self.connect())
@@ -78,7 +78,7 @@ class InteractiveTelegramClient(TelegramClient):
 
 
 if __name__ == '__main__':
-   print("[i] @FireqanQUserBot\n\n")
+   print("[i] @Wyline\n\n")
    print("[1] OtoMatik API ID/HASH Alıcı")
    print("[2] String Alıcı\n")
    
@@ -120,7 +120,7 @@ if __name__ == '__main__':
          hashh = soup.find("input", {"name": "hash"}).get("value")
          AppInfo = {
             "hash": hashh,
-            "app_title":"FireqanQ UserBot",
+            "app_title":"WylineUserBot",
             "app_shortname": "fireqanqus" + str(random.randint(9, 99)) + str(time.time()).replace(".", ""),
             "app_url": "",
             "app_platform": "android",
