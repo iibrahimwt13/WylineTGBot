@@ -88,13 +88,10 @@ HEROKU_APPNAME = os.environ.get("HEROKU_APPNAME", None)
 HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 
 # Güncelleyici için özel (fork) repo linki.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/iibrahimwt13/WylineTGBot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/iibrahimwt13/WylineTGBot")
 
 # Ayrıntılı konsol günlügü
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
-
-# SQL Veritabanı
-DB_URI = os.environ.get("DATABASE_URL", "sqlite:///fireqanq.db")
 
 # OCR API key
 OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
@@ -148,7 +145,7 @@ TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
 CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME", "True"))
 
 # Last.fm Modülü
-BIO_PREFIX = os.environ.get("BIO_PREFIX", "@fireqanqUserBot | ")
+BIO_PREFIX = os.environ.get("BIO_PREFIX", "@WylineUserBot | ")
 DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
@@ -323,14 +320,14 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    "@fireqanqUserBot",
-                    text="""@fireqanqUserBot'u kullanmayı deneyin!
+                    "@WylineUserBot",
+                    text="""@WylineUserBot'u kullanmayı deneyin!
 Hesabınızı bot'a çevirebilirsiniz ve bunları kullanabilirsiniz. Unutmayın, siz başkasının botunu yönetemezsiniz! Alttaki GitHub adresinden tüm kurulum detayları anlatılmıştır.""",
                     buttons=[
                         [custom.Button.url("Kanala Katıl", "https://t.me/wylinesupport"), custom.Button.url(
                             "Gruba Katıl", "https://t.me/wylinesupport")],
                         [custom.Button.url(
-                            "GitHub", "https://github.com/quiec/fireqanqUserBot")]
+                            "GitHub", "https://github.com/iibrahimwt13/WylineTGBot")]
                     ],
                     link_preview=False
                 )
