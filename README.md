@@ -2,16 +2,10 @@
     <a href="https://github.com/iibrahimwt13/WylineTGBot">
         <a href="https://resimlink.com/63d" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/63d.jpg" title="ResimLink - Resim Yükle" alt="ResimLink -     
     <br>
-        <a href="https://github.com/iibrahimwt13/WylineTGBot/blob/master/README.md#U">Kurulum</a> |
+        <a href="https://github.com/iibrahimwt13/WylineTGBot/master/README.md#U">Kurulum</a> |
         <a href="https://github.com/iibrahimwt13/WylineTGBot/wiki/G%C3%BCncelleme">Güncelleme</a> |
         <a href="https://t.me/wylinesupport">Telegram Grubu</a>
     <br>
-
-    </a>
-    <br>
-    <b>Telegram UserBot</b>
-    <br>
-    </p>
 
 # Kurulum
 
