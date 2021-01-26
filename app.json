@@ -10,7 +10,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/iibrahimwt13/WylineTGBot",
+  "repository": "https://github.com/iibrahimwt13/WylineTGBot.git",
   "success_url": "https://t.me/wylinesupport",
   "stack": "container",
   "env": {
@@ -53,7 +53,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Fork sağlamanız durumunda repo URL'nizi buraya ekleyin. Varsayılan olarak kendi repo adresimiz eklidir.",
-      "value": "https://github.com/iibrahimwt13/WylineTGBot.git",
+      "value": "https://github.com/iibrahimwt13/WylineTGBot",
       "required": true
     },
     "COUNTRY": {
@@ -176,7 +176,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Varsayılan profil biyografisi.",
-      "value": "@FireqanQUserBot",
+      "value": "@WylineUserBot",
       "required": false
     },
     "G_DRIVE_CLIENT_SECRET": {
@@ -216,7 +216,7 @@
     },
     "PAKET_ISMI": {
       "description": "Dızla komutu paket ismini belirleyin. Paket ismi şöyle olacaktır: @KullanıcıAdın verdiğin değer 1",
-      "value": "@FireqanQUserBot Paketi",
+      "value": "@WylineUserBot Paketi",
       "required": false
     },
     "LANGUAGE": {
