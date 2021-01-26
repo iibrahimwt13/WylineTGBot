@@ -9,7 +9,10 @@
 
 # UserBot 🔥
 
-##String Alıcı
+<Telegrami Çok Rahat Bi Şekilde Kullanmanızı Sağlayam Küçük Bir Bottur.
+Olacaklardan Wyline Sorumlu Değildir Kurduğunuz da Bütün Sorumluluklari Kabul Etmiş Olursunuz>
+
+#String Alıcı
  <a href="https://repl.it/@iibrahimwt13/StringAl-c-#main.py"><img src="https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
 
 ## How To Deploy 👷  
