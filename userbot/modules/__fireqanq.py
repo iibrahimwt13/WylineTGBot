@@ -15,11 +15,11 @@ from userbot.events import register
 # ██████ LANGUAGE CONSTANTS ██████ #
 
 from userbot.language import get_value
-LANG = get_value("__fireqanq")
+LANG = get_value("__wyline")
 
 # ████████████████████████████████ #
 
-@register(outgoing=True, pattern="^.fg(?: |$)(.*)")
+@register(outgoing=True, pattern="^.wylina(?: |$)(.*)")
 async def _(event):
     """ .fg komutu için """
     args = event.pattern_match.group(1).lower()
