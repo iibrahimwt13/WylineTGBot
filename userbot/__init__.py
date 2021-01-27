@@ -1,11 +1,3 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.c (the "License");
-# you may not use this file except in compliance with the License.
-#
-
-# FireqanQUserBot - FireganqQ
-""" UserBot hazırlanışı. """
 import os
 from re import compile
 from sys import version_info
@@ -46,7 +38,7 @@ if version_info[0] < 3 or version_info[1] < 6:
 # Yapılandırmanın önceden kullanılan değişkeni kullanarak düzenlenip düzenlenmediğini kontrol edin.
 # Temel olarak, yapılandırma dosyası için kontrol.
 CONFIG_CHECK = os.environ.get(
-    "___________LUTFEN_______BU_____SATIRI_____SILIN__________", None)
+    "", None)
 
 if CONFIG_CHECK:
     LOGS.info(
