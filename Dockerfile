@@ -3,7 +3,7 @@
 
 FROM iibrahimwt13/repobash:latest
 
-RUN git clone https://github.com/iibrahimwt13/WylineTGBot/root/WylineTGBot
-WORKDIR /root/WylineTGBot/
+RUN git clone https://github.com/iibrahimwt13/WylineTGBot
+WORKDIR /WylineTGBot/
 RUN pip3 install -r requirements.txt
 CMD ["python3", "main.py"]  
