@@ -234,7 +234,7 @@ for module_name in ALL_MODULES:
     imported_module = import_module("userbot.modules." + module_name)
 
 LOGS.info("Botunuz çalışıyor! Herhangi bir sohbete .alive yazarak Test edin."
-          " Yardıma ihtiyacınız varsa, Destek grubumuza gelin t.me/FireqanQSupport")
+          " Yardıma ihtiyacınız varsa, Destek grubumuza gelin t.me/wylinesupport")
 LOGS.info(f"Bot sürümünüz: Wyline {WYLINE_VERSION}")
 
 """
