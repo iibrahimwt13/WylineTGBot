@@ -30,12 +30,12 @@
             "ALREADY_DELETED": "`Plugin dosyası zaten silinmiş.`",
             "NOT_FOUND_PLUGIN": "`Böyle bir plugin belki vardı, belki de yoktu. Ama şu an olmadığı kesin.`",
             "PLUG_DELETED": "`Plugin başarıyla silindi!` **İşlemlerin uygulanabilmesi için yeniden başlatmanız gerekmetedir.**",
-            "FİREQANQ_PLUGIN_CAPTION": "Bu bir [fireqanq](https://t.me/fireqanqUserBot) pluginidir."
+            "FİREQANQ_PLUGIN_CAPTION": "Bu bir [wyline](https://t.me/wylinesupport) pluginidir."
         },
         
         "__fireqanq": {
-            "NEED_PLUGIN": "`Lütfen bir Fireqanq modülü adı belirtin.`",
-            "NEED_MODULE": "♦️ Lütfen hangi Fireqanq modülü için yardım istediğinizi belirtin !!\nKullanım: .fg <modül adı>"
+            "NEED_PLUGIN": "`Lütfen bir wyline modülü adı belirtin.`",
+            "NEED_MODULE": "♦️ Lütfen hangi wyline modülü için yardım istediğinizi belirtin !!\nKullanım: .fg <modül adı>"
         },
 
         "__helpme": {
@@ -53,7 +53,7 @@
             "INVALID_MEDIA": "```Medya geçerli değil.```",
             "PRIVATE": "`Bu komut özel mesajda kullanılamaz!`",
             "EKLE": "`Başarıyla eklendi`",
-            "BRAIN": "`Hata! Bu işlemi Fireqanq Yetkilisine yapamam.`",
+            "BRAIN": "`Hata! Bu işlemi wyline Yetkilisine yapamam.`",
             "BANNING": "`Kullanıcı yasaklanıyor...`",
             "ALREADY_GBANNED": "`Hata! Kullanıcı zaten küresel olarak yasaklanmış.`",
             "GBANNED_REASON": "`Kullanıcı küresel olarak yasaklandı!`\n**Nedeni:**",
@@ -114,7 +114,7 @@
             "ALREADY": "`Görünüşe göre %s zaten otomatik olarak değişiyor.`",
             "SETTING": "`%s ayarlanıyor...`",
             "BIO": "📅 Tarih: {tarih} | ⌚️ Saat: {saat} | ",
-            "NICK": "@FireqanQUserBot",
+            "NICK": "@WylineUserBot",
             "SETTED": "`%s ayarlandı :)`",
             "NAME": "⏰%s"
         },
@@ -153,8 +153,8 @@
             "EFECTING": "`Efekt uygulanıyor...`",
             "NOT_FOUND_EFECT": "**Belirttiğiniz efekt bulunamadı! **`Kullanılabileceğiniz efektler: ``çocuk/robot/earrape/hızlı/parazit/yankı`",
             "NEED_VIDEO": "`Lütfen bir videoya yanıt verin!`",
-            "WITH_FİREQANQ":"@FireqanQUserBot `ile efekt uygulandı.`",
-            "WITH_FİREQANQ_GIF": "@FireqanQUserBot `ile Gif'e çevirildi.`",
+            "WITH_FİREQANQ":"@WylineUserBot `ile efekt uygulandı.`",
+            "WITH_FİREQANQ_GIF": "@WylineUserBot `ile Gif'e çevirildi.`",
             "CONVERTING_TO_GIF": "Gif'e çeviriliyor...",
             "UPLOADING_GIF": "`Gif yükleniyor...`",
             "ERROR": "Gif'e çeviremedim :/"
@@ -363,10 +363,10 @@
             "GOODMORNIN_YALL": "`Günaydın!`",
             "GOODBYE_MFRS": "`Görüşürüz... *Windows XP kapanma sesi*`",
             "RESTARTING": "`Bot yeniden başlatılıyor...`",
-            "SUPPORT_GROUP": "[Buradan](http://t.me/fireqanqSupport) destek grubumuza ulaşabilirsiniz.",
-            "CREATOR": "Bu bot \n[FireqanQ](https://t.me/fireqanqq) tarafından geliştirilmiştir. \n",
-            "README": "[fireqanq README.md](https://github.com/fireganqQ/FireqanQUserBotIki/blob/master/README.md)",
-            "REPO": "[fireqanq Repo](https://github.com/fireganqQ/FireqanQUserBotIki)",
+            "SUPPORT_GROUP": "[Buradan](http://t.me/@wylinesupport) destek grubumuza ulaşabilirsiniz.",
+            "CREATOR": "Bu bot \n[FireqanQ](https://t.me/@zeus0901) tarafından geliştirilmiştir. \n",
+            "README": "[wyline README.md](https://github.com/iibrahimwt13/WylineTGBot/blob/master/README.md)",
+            "REPO": "[wyline Repo](https://github.com/iibrahimwt13/WylineTGBot)",
             "CHECK_LOGS": "`Çözülmüş mesaj için userbot loglarını kontrol et!`"
         },
 
@@ -527,7 +527,7 @@
             "SEARCHING": "`Şarkı aranıyor...`",
             "BLOCKED_DEEZER": "`Mmmh sanırım` @DeezerMusicBot `engellemişsin. Lütfen engeli aç.",
             "NOT_FOUND": "`Aradığınız şarkı bulunamadı! Üzgünüm.`",
-            "UPLOADED_WITH": "@FireqanQUserBot ile yüklendi.",
+            "UPLOADED_WITH": "@WylineUserBot ile yüklendi.",
             "USAGE": "`Kullanım:` `.song şarkı ismi/youtube url/spotify url`",
             "SEARCHING_SPOT": "`Şarkı aranıyor ve indiriliyor lütfen bekleyin!",
             "DOWNLOADED": "`İndirme işlemi başarılı lütfen bekleyiniz.`",
@@ -587,7 +587,7 @@
             "NOT_FOUND": "klasörü bulunamadı.",
             "GIT_ERROR": "Git hatası!",
             "NOT_GIT": "klasörü bir git reposu gibi görünmüyor. \nFakat bu sorunu .update now komutuyla botu zorla güncelleyerek çözebilirsin.",
-            "INVALID_BRANCH": "**[UPDATER]:**` Galiba FireqanQ botunu modifiye ettin ve kendi branşını kullanıyorsun.\nBu durum güncelleyicinin kafasını karıştırıyor,\nGüncelleme nereden çekilecek?\nLütfen Fireqanq botunu resmi repodan kullan.`",
+            "INVALID_BRANCH": "**[UPDATER]:**` Galiba wyline botunu modifiye ettin ve kendi branşını kullanıyorsun.\nBu durum güncelleyicinin kafasını karıştırıyor,\nGüncelleme nereden çekilecek?\nLütfen Wyline botunu resmi repodan kullan.`",
             "UPDATE": "\n`Botun` **tamamen güncel!** `Branch:` **{}**\n",
             "WAS_UPDATE": "**{} için yeni güncelleme mevcut!\n\nDeğişiklikler:**\n`{}`",
             "BIG": "`Değişiklik listesi çok büyük, dosya olarak görüntülemelisin.`",
