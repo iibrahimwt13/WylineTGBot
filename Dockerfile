@@ -1,7 +1,7 @@
 # Faster & Secure & Special Container #
 # Thanks to mkaraniya & zakaryan2004
 
-FROM fusuf/asenauserbot:latest
+FROM iibrahimwt13/wylineuserbot:latest
 
 RUN git clone https://github.com/iibrahimwt13/WylineTGBot
 WORKDIR /WylineTGBot/
