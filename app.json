@@ -220,7 +220,7 @@
       "required": false
     },
     "LANGUAGE": {
-      "description": "Botun dili. TR/AZ yazabilirsiniz.",
+      "description": "Botun dili. EN/TR/AZ yazabilirsiniz.",
       "value": "TR",
       "required": true
     }
