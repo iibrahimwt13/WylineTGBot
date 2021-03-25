@@ -1,9 +1,3 @@
-# Copyright (C) 2020 FireganqQ
-#
-# Licensed under the GPL-3.0 License;
-# you may not use this file except in compliance with the License.
-#
-# FireqanQUserBot - FireganqQ
 from userbot import PATTERNS, CMD_HELP, CMD_HELP_BOT
 
 class CmdHelp:
